@@ -26,7 +26,7 @@ There are two principal thrusts in Physics:
 
 **In Reduction,** the effort is to derive the properties of a bigger, more complex system from the properties and interactions of its constituent simpler parts.
 
-## Scioe & Excitement of Physics
+## Scope & Excitement of Physics
 There are two main domains of interest:
 - Macroscopic (+ Mesoscopic)
 - Microscopic
