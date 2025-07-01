@@ -1,3 +1,71 @@
+# What is Science? (Introduction)
+> Science is a systematic attempt to understand natural phenomenon in as much detail and depth as possible. We then use this knowledge to predict, modify & control phenomenon.
+
+The scientific method involves several interconnected steps:
+- Systematic Observations
+- Controlled Experiments
+- Qualitative and Quantitative Reasoning
+- Mathematical Modelling
+- Prediction / Verfication / Falsification of Theories.
+
+Speculation also has a place in science, but in order to be acceptable, must be verified by relevant observations or experiments.
+
+Science is ever-dynamic. There is no 'final' theory in science and no unquestioned authority among scientists.
+
+As observations inmprove in detail and precision or as new results are obtained from experiments, theories must account for them if necessary, by introducing modifications.
+
+# What is Physics?
+- Physics is a basic discipline in the category of Natural Sciences.
+- It can be described as the study of the basic laws of nature and their manifestation in different natural phenomenon.
+
+There are two principal thrusts in Physics:
+- Unification
+- Reduction
+
+**In Unification,** we attempt to explain diverse physical phenomenon in terms of a few concepts and laws. The effort is to see the physical world as a manifestation of some universal laws in different domains and conditions.
+
+**In Reduction,** the effort is to derive the properties of a bigger, more complex system from the properties and interactions of its constituent simpler parts.
+
+## Scioe & Excitement of Physics
+There are two main domains of interest:
+- Macroscopic (+ Mesoscopic)
+- Microscopic
+
+The macroscopic domain, includes phenomena at the laboratory, terestial and astronomical scales. Classical phyiscs deals mainly with macroscopic phenomenon and includes subjects like Mechanics, Thermodynamics, Electrodynamics and Optics.
+
+The microscopic domain, includes atomic, molecular and nuclear phenomenon. It deals with the constitution and structure of matter at the minute scales of atoms and nucleii and their interaction with electrons, protons and other elementary particles.
+Classical Physics is inadequate to handle this domain and Quantum Theory is current accepted as the proper framework for explaining microscopic phenomenon.
+
+Note: Recently, the mesoscopic domain has emerged which is an intermediate between the macroscopic and microscopic domains, dealing with a few tens or hundred of atoms.
+
+## Some Physicists and their major contributions / discovery
+|Name|Major contribution / discovery|
+|----|------------------------------|
+|Abdus Salam|Unification of weak and electromagnetic interactions|
+|Albert Einstein|Explanation of photoelectric effect; Theory of relativity|
+|Archimedes|Principle of buoyancy; Principle of lever|
+|C. H. Townes|Maser; Laser|
+|C. V. Raman|Inelastic scattering of light by molecules|
+|Christian Huggen| Wave theory of light|
+|Edwin Hubble|Expanding universe|
+|Enrico Fermi|Controlled nuclear fission|
+|Ernest Orlando Lawrence|Cyclotron|
+|Ernest Rutherford|Nuclear model of atom|
+|Galileo Galilei|Law of inertia|
+|Heinrich Rudolf Hertz|Generation of EM waves|
+|Hideki Yukawa|Theory of nuclear forces|
+|Homi Jehangir Bhabha|Cascade process of cosmic radiation|
+|Isaac Newton|Universal law of gravitation; Laws of motion; Reflecting telescope|
+|J. C. Bose|Ultra short radio waves|
+|J. J. Thomson|Electron|
+|James Chadwick|Neutron|
+|James Clark Maxwell|Electromagnetic theory; Light - an EM wave|
+|John Bardeen|Transistors; Theory of superconductivity|
+|Lev Davidovich Landau|Thoery of condensed matter; Liquid Helium|
+|M. N. Saha|Thermal Ionisation|
+
+
+
 # Fundamental Forces
 1) Gravitational Force:
 2) Electromagnetic Force
