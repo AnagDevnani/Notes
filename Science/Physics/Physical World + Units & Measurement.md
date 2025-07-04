@@ -62,12 +62,32 @@ Note: Recently, the mesoscopic domain has emerged which is an intermediate betwe
 |James Clark Maxwell|Electromagnetic theory; Light - an EM wave|
 |John Bardeen|Transistors; Theory of superconductivity|
 |Lev Davidovich Landau|Thoery of condensed matter; Liquid Helium|
+|Lousi Victor de Broglie|Wave nature of matter|
 |M. N. Saha|Thermal Ionisation|
-
-
+|Marie Sklodowska Curie|Discovery of Radium & Polonium; Studies of natural radioactivity|
+|Michael Faraday|Law of electromagnetic induction|
+|Niels Bohr|Quantum model of Hydrogen atom|
+|Paul Dirac|Relavisitic theory of Electron; Quantum statistics|
+|R. A. Milikan|Measurement of electronic charge|
+|S. Chandrasekhar|Chandrasekhar limit; Structure and evolution of stars|
+|S. N. Bose|Quantum statistics|
+|Victor Francis Hess|Cosmic radiation|
+|W. K. Roentgen|X-Rays|
+|Werner Heisenberg|Quantum mechanics; Uncertainty principle|
+|Wolfgang Pauli|Exclusion principle|
 
 # Fundamental Forces
 1) Gravitational Force:
+- It is the force of mutual attraction between any two objects due to their masses.
+- Every object experiences this force due to every other object in the universe.
+- Gravity governs the motion of moons around a planet and planets around the sun. It plays a main role in formation and evolution of stars, galaxies and galactic clusters.
+- Newton's law of gravitation gives the magnitude of force exerted by a particle of point mass $m_1$, on another particle of point mass $m_2$ at a distance $r$ from it as:
+$F=\frac{Gm_1m_2}{r^2}$
+
+where:
+$G=6.67\times10^{-11}\text{ Nm^2/kg^2}$ (Universal Gas Constant}
+
+- The force acts along the line joining the two particles.
 2) Electromagnetic Force
 3) Strong Nuclear Force:
 	- Force between Protons & Neutrons (Not Experienced by Electrons)
