@@ -1,23 +1,4 @@
-# Introduction
-A typical shell environment presents us with (for example):
-```
-[anag@thinkpad ~]$ ls -a
-```
-
-here,
-`anag` is the username
-<br>
-`thinkpad` is the hostname
-<br>
-`~` is the path of the current working directory. (in this case it is `/home/anag`)
-<br>
-`ls` is the command
-<br>
-`-a` is an option (or argument)
-<br>
-`[anag@thinkpad ~]$` together comprise something called as the command prompt.
-
-# Some simple commands
+# Introduction (some simple commands)
 `clear`: clears the current screen (can also be called with `ctrl+L`)
 <br>
 `pwd`: returns the present working directory
@@ -106,7 +87,7 @@ chmod g-w file1
 ```
 this command will remove the write (`w`) permission from group for a file called `file1`.
 
-similiarly we can also use `u`, `o` and `a` for owner, others and all respectively.
+similiarly we can also use `u`, `o` and `a` for user (owner), others and all respectively.
 `+` can be used in place of `-` for adding permissions.
 `r` and `x` can be used for read and execute respectively.
 
@@ -150,6 +131,8 @@ usr-->y[share]
 
 **Note:** path for traversal can be absolute or relative.
 ## File System Hierarchy Explained:
+
+## / (root) hierarchy explained:
 |Directory|Description|
 |:---|:---|
 |/bin|Essential command binaries|
@@ -194,4 +177,80 @@ usr-->y[share]
 |**static**|/usr<br>/opt|/etc<br>/boot|
 |**variable**|/var/mail|/var/run<br>/var/lock|
 
-1.2: 22:13
+here, sharable and unsharable refers to whether or not the filesystem can be shared accross computers.
+
+static and variable refer to whether or not they will change during the regular operations of the computer.
+
+# Some simple commands.
+
+`du`: gives the total size of block occupied by that file.
+
+`df`: gives information about the filesystems, partitions and mount points.
+
+### In-memory filesystems
+these are the filesustems that are not physically stored on the disk.
+`/proc` and `/sys`: not physically stored, in-memory filesystems.
+
+`/proc`: cpuinfo, partitions, meminfo, kcore (contains the numerical value of the maximum memory that the OS can handle (theoretically))
+
+`less`: outputs the contents of the file to stdout page by page.
+
+
+<font color=red>Check difference between more and less and in which cases would we want to use more.</font>
+
+Note: Multiple slashes are equivalent to a single slash.
+e.g. ///usr///bin => /usr/bin
+
+`ls -d`: prints info about a directory and does not traverse it.
+e.g. `ls folder_name` will print information about the **contents** of `folder_name` and `ls -d folder_name` will give information about the directory `folder_name` itself.
+
+
+`cat`: dumps all the content of the text file to stdout.
+
+`head` and `tail`:
+    - outputs the first and last lines of a file.
+    - default value is 10 but can be changed by using `-n` arg.
+
+`wc`: //stands for word count.
+    - Syntax: `wc file_name`
+    - O/P: `nc wc bc fn`
+    - where:
+        - nc: newline count
+        - wc: word count
+        - bc: byte count
+        - fn: filename
+
+`which`: gives location of where the command is located.
+
+`whatis`: short description of the command.
+
+`apropos`:
+    - searches all commands for a keyword.
+    - similiar to `man -k`
+    - symbolic link to `whatis`.
+
+`info`: not sure of a description
+
+`stat`: gives size info about a file.
+
+`file`: gives information of the type of file.
+
+`help`: shows all the keywords used by the shell.
+
+`type`: gives information of the type of command.
+
+
+# Links (Hardlinks and Softlinks)
+Hard links are a copy of the original file and both point to the same file. i.e. they share the same inode number.
+
+Therefore if you modify the hard link then the original file is also modified.
+
+if the original file is deleted then the hard link will continue to function and modify the original file stored at the inode.
+
+Basically, hard links are an alternative way to access the same file and are different from copies and duplicates in that theu are pointing to a same locations and are stored at a new location respectively.
+
+Softlinks are references to the original.
+
+if the original file is deleted / renamed then the funcionality of the symbolic link breaks.
+
+The softlink and original file will have different inode numbers.

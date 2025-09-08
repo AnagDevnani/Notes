@@ -1,5 +1,5 @@
 ## Questions
-1) $\text{The number of subset }S\text{ of }\{1,2,3,\dots,10\}\text{ with the propertry: "There exists intergers }a<b<c\text{ with }a,c\in S\text{ and }b\notin S$ 
+1) $\text{The number of subset }S\text{ of }\{1,2,3,\dots,10\}\text{ with the property: "There exists intergers }a<b<c\text{ with }a,c\in S\text{ and }b\notin S$" is
 	- Answer: 968
 2) $\text{In a group of 50 items, each one is either type A or type B and is either sweet or hot. 14 are sweet items of type A, 31 are type B and 18 are hot. Find the number of items of Type B}$
 	- Answer: 13
@@ -44,18 +44,18 @@ $\text{Then How many elements of S are divisble by 3?}$
 
 ### Proper Subset
 
-If there is atleast one element in $B$ which is not in $A$.
+If $A \subset  B$ and there is atleast one element in $B$ which is not in $A$.
 
 - A is a **proper subset** of B
 - B is the **superset** of A
 
-<img src="../_resources/58761b302df3414913e1dea205ed2d76.png" alt="58761b302df3414913e1dea205ed2d76.png" width="96" height="96" class="jop-noMdConv">
+<img src="../_resources/58761b302df3414913e1dea205ed2d76.png" alt="58761b302df3414913e1dea205ed2d76.png" width="96" height="96">
 
 **Note:** If $A \subset B$ then, $C-B \subset C-A$
 
 ### Disjoint Sets
 
-<img src="../_resources/c1ac33819691355fde6347e85e51cff8.png" alt="c1ac33819691355fde6347e85e51cff8.png" width="117" height="70" class="jop-noMdConv">
+<img src="../_resources/c1ac33819691355fde6347e85e51cff8.png" alt="c1ac33819691355fde6347e85e51cff8.png" width="117" height="70">
 
 If $A\cap B = \phi$
 **Note:** If $A-B=A$ **and** $B-A=B \implies A\cap B =\phi$
@@ -80,7 +80,7 @@ Therefore, for $n$ elements, $\underbrace{2\times2\dots2}_{n \text{ times}} = 2^
 - No. of Proper Subsets = $2^n -1$
 
 # Properties of Union & Intersection
-- **Note:** $A-B$ is also dentoed by $A \space\backslash\space B$
+- **Note:** $A-B$ is also denotedk by $A \space\backslash\space B$
 
 | Union $(\cup)$ | Intersection $(\cap)$ |
 | --- | --- |
