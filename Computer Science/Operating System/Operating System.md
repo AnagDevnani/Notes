@@ -30,6 +30,42 @@ There are different types of operating systems available today to cater to varie
 	- Memory Management
 	- I/O Management
 
+### Program vs Process
+- A process is a program in execution.
+- Therefore, a program is a passive entity stored on the desk and a process is an active entity with a program counter (PC).
+- Process execution must progress in a sequential fashion (why?)
+
+
+### Process Memory
+Process memory is divided into 4 sections:
+1. Stack: local variables, function parameters, function return values, return addresses, etc.
+2. Heap: dynamically allocated during process run time.
+3. Data: Global variables (and static).
+4. Text: Compiled program code (instructions)
+
+
+Note: There is free space between stack and heap. When stack is full it grows downward. When heap is full, it grows upward.
+
+
+### Process State:
+\<put_the_picture_of_the_process_state_diagram_here>
+
+new: being created
+ready: has all the resources to run; waiting to be assigned to processor.
+running: executing.
+waiting: waiting for some event to occur.
+terminated: execution completed.
+
+
+### Process Control Block (PCB)
+- each process is represented in the operating system by a process control block:
+	- Process State: running, waiting, etc.
+	- CPU Registar: Contents of all process-centric registers
+	- CPU Scheduling Information: Process priority.
+	- Memory management information: Memory allocated to the process.
+	- Accointing information: CPU used, time elapsed, etc.
+	- I/O Status information: list of I/O devices / open files allocated to the process.
+
 ### Process Management
 - A process is executed as per its instructions as soon as teh processor or CPU is assigned to it.
 - A process is given some memory for each of the following sections for its proper execution:

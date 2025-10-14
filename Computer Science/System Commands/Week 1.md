@@ -239,6 +239,8 @@ e.g. `ls folder_name` will print information about the **contents** of `folder_n
 
 `type`: gives information of the type of command.
 
+`hwinfo`: give hardware info
+
 
 # Links (Hardlinks and Softlinks)
 Hard links are a copy of the original file and both point to the same file. i.e. they share the same inode number.
