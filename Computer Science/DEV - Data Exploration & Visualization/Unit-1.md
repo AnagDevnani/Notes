@@ -56,7 +56,7 @@ altitude: 0.0000
 
 
 - When people talk about data insights, they are usually referring to three core components:
-![941c289d8785f39bd2fa542eba4d2ed3.png](../_resources/941c289d8785f39bd2fa542eba4d2ed3.png)
+![941c289d8785f39bd2fa542eba4d2ed3.png](../../_resources/941c289d8785f39bd2fa542eba4d2ed3.png)
 
 
 ## Data Analytics
@@ -149,7 +149,7 @@ df = pd.DataFrame(data)
 
 print(df)
 ```
-![b656a13e9831ede170b7bcfd46ff2ea6.png](../_resources/b656a13e9831ede170b7bcfd46ff2ea6.png)
+![b656a13e9831ede170b7bcfd46ff2ea6.png](../../_resources/b656a13e9831ede170b7bcfd46ff2ea6.png)
 
 **Using Named Indexes:**
 - Add a list of names to give each row a name;
@@ -164,7 +164,7 @@ df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
 
 print(df)
 ```
-![fafabe8ffe7f2c44bdf42073a07cd4e9.png](../_resources/fafabe8ffe7f2c44bdf42073a07cd4e9.png)
+![fafabe8ffe7f2c44bdf42073a07cd4e9.png](../../_resources/fafabe8ffe7f2c44bdf42073a07cd4e9.png)
 
 ### Load Files Into a DataFrame
 - If your data sets are stored in a file, Pandas can load them into a DataFrame.
@@ -194,7 +194,7 @@ pd.concat([dataFrame1, dataFrame2], axis=0, ignore_index=False)
 - `axis` represents the axis that you’ll concatenate along. The default value is 0, which concatenates along the index, or row axis. Alternatively, a value of 1 will concatenate vertically, along columns. You can also use the string values "index" or "columns"
 - `ignore_index` takes a Boolean True or False value. It defaults to False. If True, then the new combined dataset won’t preserve the original index values in the axis specified in the axis parameter. This lets you have entirely new index values.
 
-![ae5d403135e175e3f3333c5b18fc37df.png](../_resources/ae5d403135e175e3f3333c5b18fc37df.png)
+![ae5d403135e175e3f3333c5b18fc37df.png](../../_resources/ae5d403135e175e3f3333c5b18fc37df.png)
 
 
 ### `merge()`

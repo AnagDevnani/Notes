@@ -1,34 +1,4 @@
----
-title: Artificial Intelligence
-updated: 2025-09-26 01:05:26Z
-created: 2025-09-25 12:11:53Z
-latitude: 12.97159870
-longitude: 77.59456270
-altitude: 0.0000
----
 
-# Introduction
-> Artificial Intelligence is the science of making machines that can think like humans.
-
-- AI technology can process large amounts of data in ways, unlike humans.
-- The **goal** for AI is to be able to do things such as recognize patterns, make decisions and judge like humans.
-- How Artificial Intelligence Works:
-	- It all starts with designing the AI to meet a specific goal.
-	- From there, it is trained on available data as it learns how to best achieve the given goal.
-	- When it reaches a level of learning, the AI then takes on the data independently.
-	- Then, after analyizing all the data, AI makes predictions based on what it finds.
-	- Going foward, it uses what it learns to improve its approach.
-
-## Pros and Cons of Artificial Intelligence:
-|Pros|Cons|
-|:--:|:--:|
-|Reducing human error|Higher overall costs|
-|Allows for quicker decision-making|Job loss / replacements|
-|Reduces the risk|Lacks the ability to be creative|
-|Automates repetition|Emotional range isn't there|
-|Assists with digital tasks|Inability to integrate ethical principles|
-
-<font color=red>everything above this is fluff, i'll go through it later, continuing from chapter 2 now</font>
 # Intelligent Agents
 > An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
 

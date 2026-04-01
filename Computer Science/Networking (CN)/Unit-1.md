@@ -1,13 +1,5 @@
----
-title: Computer Networks
-updated: 2025-09-26 21:01:52Z
-created: 2025-09-26 10:02:20Z
-latitude: 12.97159870
-longitude: 77.59456270
-altitude: 0.0000
----
-
 <font color=red>need to resize images</font>
+
 # Introduction
 ## Data Communication
 **Data communication** is the exchange of data between two devices via some form of transmission medium.
@@ -39,7 +31,9 @@ There are five components in a data communication system:
 5. Protocol
 	- Set of rules that govern data communications, represents agreement between the communicating devices.
 	- Without a protocol, two devices may be connected but not communicating.
-  
+
+<img src='image.png' width=500>
+
 ### Data Representation
 Information comes in different forms:
 1. Text
@@ -81,7 +75,7 @@ Communication between two devices can be of three types:
 		- Either the link contains two physically seperate transmission paths, one for sending and the other for receiving.
 		- Or the capacity of the channel is divided between signals travelling in both directions.
 
-![f6298b4435ba6405d667b54332e97262.png](../_resources/f6298b4435ba6405d667b54332e97262.png)
+![f6298b4435ba6405d667b54332e97262.png](../../_resources/f6298b4435ba6405d667b54332e97262.png)
 
 ## Networks
 A network is a set of devices (often called nodes) connected by communication links.
@@ -162,9 +156,9 @@ T-->Ring
 
 
 ## Switching
-![ac2db1c55512553747015d3bd008eecd.png](../_resources/ac2db1c55512553747015d3bd008eecd.png)
+![ac2db1c55512553747015d3bd008eecd.png](../../_resources/ac2db1c55512553747015d3bd008eecd.png)
 ## The Internet
-![bbf5932a79ff4c86d3de7e1a0c102e7a.png](../_resources/bbf5932a79ff4c86d3de7e1a0c102e7a.png)
+![bbf5932a79ff4c86d3de7e1a0c102e7a.png](../../_resources/bbf5932a79ff4c86d3de7e1a0c102e7a.png)
 ### History of the Internet
 #### Early History
 - Birth of Packet-switched networks.
@@ -184,17 +178,17 @@ T-->Ring
 
 ### Internet Standards
 #### Maturity Levels
-![87ec6f17e76c9f8f09fe16cd7c864422.png](../_resources/87ec6f17e76c9f8f09fe16cd7c864422.png)
+![87ec6f17e76c9f8f09fe16cd7c864422.png](../../_resources/87ec6f17e76c9f8f09fe16cd7c864422.png)
 
 #### Requirement Levels
-![ce6927eeeaf40e0641eaa04f41d962c4.png](../_resources/ce6927eeeaf40e0641eaa04f41d962c4.png)
+![ce6927eeeaf40e0641eaa04f41d962c4.png](../../_resources/ce6927eeeaf40e0641eaa04f41d962c4.png)
 
 ### Maturity Levels of an RFC
 <font color=red>wtf is an RFC?</font>
-![61be29ec4a4adaeee0de51fcbe1b950f.png](../_resources/61be29ec4a4adaeee0de51fcbe1b950f.png)
+![61be29ec4a4adaeee0de51fcbe1b950f.png](../../_resources/61be29ec4a4adaeee0de51fcbe1b950f.png)
 
 ### Internet Administration
-![7754d5e790cab7b93fbea25d5adc5bed.png](../_resources/7754d5e790cab7b93fbea25d5adc5bed.png)
+![7754d5e790cab7b93fbea25d5adc5bed.png](../../_resources/7754d5e790cab7b93fbea25d5adc5bed.png)
 
 # TCP/IP Protocol Suite
 It is a hierarchical protocol made up of interactive modules, each of which provides a specific functionality.
@@ -275,17 +269,17 @@ however, today TCP/IP is made of five layers:
 - The **Internet Group Management Protocol (IGMP)** is used to collect membership in a group.
 
 ## Encapsulation / Decapsulation
-![bf2c3995eba445989721cad60fe77cd0.png](../_resources/bf2c3995eba445989721cad60fe77cd0.png)
+![bf2c3995eba445989721cad60fe77cd0.png](../../_resources/bf2c3995eba445989721cad60fe77cd0.png)
 
 # Addressing in the TCP/IP Protocol Suite
-![e16e8d9de92561b81666fef344e2493d.png](../_resources/e16e8d9de92561b81666fef344e2493d.png)
+![e16e8d9de92561b81666fef344e2493d.png](../../_resources/e16e8d9de92561b81666fef344e2493d.png)
 
 ## Physical Address
 - The physical address, also known as the link address, is the addresss of a node as defined by its LAN or WAN. It is included in the frame used by the data link layer. It is the lowest level address.
 - The physical addresses have authority over the network (LAN or WAN). The size and format of these addresses vary depending on the network.
 - For example, Ethernet uses a 6-byte (48-bit) physical address that is imprinted on the Network Interface Card (NIC). LocalTalk (Apple), however has a 1-byte dynamic address that changes each time the station come up.
 - Example:
-![93c398d119133bd4c29a3cf3223b8503.png](../_resources/93c398d119133bd4c29a3cf3223b8503.png)
+![93c398d119133bd4c29a3cf3223b8503.png](../../_resources/93c398d119133bd4c29a3cf3223b8503.png)
 
 - Most local-area networks use a 48-bit (6-byte) physical address written as 12 hexadecimal digits
 		- every byte (2 hexadecimal digits) is seperated by a colon:
@@ -300,7 +294,7 @@ however, today TCP/IP is made of five layers:
 - A logical address in the Internet is currently a 32-bit address that can uniquely define a host connected to the Internet. No two publicly addressed and visible hosts on the Internet can have the same IP address.
 - The figure below shows a part of an internet with two routers connecting three LANs. Each device (computer or router) has a pair of addresses (logical and physical) for each connection. In this case, each computer is connected to only one link and therefore has 
  only one pair of addresses. Each router, however, is connected to three networks (only two are shown in the figure). So each router has three pairs of addresses, one for each connection.
- ![2f49259a49fe85b54e7319868f1f32ad.png](../_resources/2f49259a49fe85b54e7319868f1f32ad.png)
+ ![2f49259a49fe85b54e7319868f1f32ad.png](../../_resources/2f49259a49fe85b54e7319868f1f32ad.png)
 
  ## Port Address
  - The IP address and the physical address are necessary for a quantity of data to travel from a source to the destination host.
@@ -321,11 +315,11 @@ however, today TCP/IP is made of five layers:
 
 
 ## Multiplexing and Demultiplexing
-![564b1a5f795f1f12697a9dfa3ad04bf5.png](../_resources/564b1a5f795f1f12697a9dfa3ad04bf5.png)
+![564b1a5f795f1f12697a9dfa3ad04bf5.png](../../_resources/564b1a5f795f1f12697a9dfa3ad04bf5.png)
 
 
 # OSI Layer with TCP/IP
-![d3841f5687901c8813652c05d5c750c8.png](../_resources/d3841f5687901c8813652c05d5c750c8.png)
+![d3841f5687901c8813652c05d5c750c8.png](../../_resources/d3841f5687901c8813652c05d5c750c8.png)
 
 ## Limitation of OSI Layer
 - OSI was completed when TCP/IP was fully in place and a lot of time and money had been spent on the suite; changing it would cost a lot.
